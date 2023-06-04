@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/AllServers"
+        android:icon="@drawable/location"
+        android:title="All Server" />
+    <item
+        android:id="@+id/Setting"
+        android:icon="@drawable/setting"
+        android:title="Settings" />
+    <item
+        android:id="@+id/About"
+        android:icon="@drawable/about"
+        android:title="About" />
+    <item
+        android:id="@+id/Contactus"
+        android:icon="@drawable/contact"
+        android:title="Contact Us" />
+</menu>

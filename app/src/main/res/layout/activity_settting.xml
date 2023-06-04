@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SetttingActivity">
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        app:cardBackgroundColor="@color/lightBlue"
+        style="@style/CustomCardViewStyle">
+        <View
+            android:id="@+id/gotoMainActivity"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:rotation="270"
+            android:background="@drawable/uplogoblue"
+            android:layout_margin="5dp"
+            />
+
+    </com.google.android.material.card.MaterialCardView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Settings"
+        android:textColor="@color/lightBlue"
+        android:textSize="23sp"
+        android:fontFamily="@font/segoeuibold"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_margin="10dp"
+            android:padding="20dp"
+            >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="20dp"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Languages"
+                    android:textSize="15sp"
+                    />
+                <View
+                    android:id="@+id/language_view"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:rotation="270"
+                    android:background="@drawable/list"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true" />
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="#424343"
+                    android:layout_below="@id/language_view"
+                     />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="20dp"
+
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Term of Service"
+                    android:textSize="15sp"
+                    />
+                <View
+                    android:id="@+id/terms_of_service_view"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:rotation="270"
+                    android:background="@drawable/list"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true" />
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="#424343"
+                    android:layout_below="@id/terms_of_service_view"
+                    />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="20dp"
+
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Privacy Policy"
+                    android:textSize="15sp"
+                    />
+                <View
+                    android:id="@+id/Privacy_policy_view"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:rotation="270"
+                    android:background="@drawable/list"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true" />
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="#424343"
+                    android:layout_below="@id/Privacy_policy_view"
+                    />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="20dp"
+
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Feed break"
+                    android:textSize="15sp"
+                    />
+                <View
+                    android:id="@+id/Feed_break_view"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:rotation="270"
+                    android:background="@drawable/list"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true" />
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="#424343"
+                    android:layout_below="@id/Feed_break_view"
+                    />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="20dp"
+
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Version"
+                    android:textSize="15sp"
+                    />
+                <TextView
+                    android:id="@+id/version_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:text="1.0.0"
+                    android:textSize="15sp"
+
+                    />
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="#424343"
+                    android:layout_below="@id/version_view"
+                    />
+            </RelativeLayout>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>
