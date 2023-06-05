@@ -454,13 +454,17 @@
         android:id="@+id/Nav_View"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#ABC1C0C0"
+        android:background="#AB858383"
         android:layout_gravity="start"
         android:fitsSystemWindows="true"
         android:focusableInTouchMode="true"
         app:itemIconTint="@color/lightBlue"
         app:itemRippleColor="#7FD7FD"
         app:headerLayout="@layout/nav_header_layout"
-        app:menu="@menu/nav_menu"/>
+        app:menu="@menu/nav_menu">
+
+    </com.google.android.material.navigation.NavigationView>
+
+
 
 </androidx.drawerlayout.widget.DrawerLayout>

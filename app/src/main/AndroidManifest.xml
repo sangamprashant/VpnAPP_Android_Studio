@@ -13,6 +13,18 @@
         android:theme="@style/Theme.TrueVPN"
         tools:targetApi="31">
         <activity
+            android:name=".AboutContentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FeedBackActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PrivacyContentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TermsContentActivity"
+            android:exported="false" />
+        <activity
             android:name=".ServerListActivity"
             android:exported="false" />
         <activity

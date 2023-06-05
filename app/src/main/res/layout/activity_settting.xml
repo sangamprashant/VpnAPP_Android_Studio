@@ -41,37 +41,12 @@
             android:layout_margin="10dp"
             android:padding="20dp"
             >
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_margin="20dp"
-                >
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Languages"
-                    android:textSize="15sp"
-                    />
-                <View
-                    android:id="@+id/language_view"
-                    android:layout_width="25dp"
-                    android:layout_height="25dp"
-                    android:rotation="270"
-                    android:background="@drawable/list"
-                    android:layout_alignParentEnd="true"
-                    android:layout_alignParentRight="true" />
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="2dp"
-                    android:background="#424343"
-                    android:layout_below="@id/language_view"
-                     />
-            </RelativeLayout>
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_margin="20dp"
 
+            <RelativeLayout
+                android:id="@+id/ToTermsPage"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="20dp"
                 >
                 <TextView
                     android:layout_width="wrap_content"
@@ -95,6 +70,7 @@
                     />
             </RelativeLayout>
             <RelativeLayout
+                android:id="@+id/ToPrivacyPolicyPage"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="20dp"
@@ -122,6 +98,7 @@
                     />
             </RelativeLayout>
             <RelativeLayout
+                android:id="@+id/goToFeedback"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="20dp"
@@ -130,7 +107,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Feed break"
+                    android:text="Feedback"
                     android:textSize="15sp"
                     />
                 <View

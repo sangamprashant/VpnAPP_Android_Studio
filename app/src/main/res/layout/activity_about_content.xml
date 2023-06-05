@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AboutContentActivity">
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        app:cardBackgroundColor="@color/lightBlue"
+        style="@style/CustomCardViewStyle">
+        <View
+            android:id="@+id/gotoMainActivity"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:rotation="270"
+            android:background="@drawable/uplogoblue"
+            android:layout_margin="5dp"
+            />
+
+    </com.google.android.material.card.MaterialCardView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="About TrueVPN"
+        android:textColor="@color/lightBlue"
+        android:textSize="23sp"
+        android:fontFamily="@font/segoeuibold"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_margin="10dp"
+            android:padding="20dp"
+            >
+
+
+            <ImageView
+                android:id="@+id/gifImageView"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                 />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/segoeuibold"
+                android:layout_marginBottom="20dp"
+                android:text="TrueVPN is a trusted VPN service that offers users a secure and private online experience. With strong encryption and advanced protocols, TrueVPN ensures the protection of sensitive data and online privacy. By hiding IP addresses and providing anonymity, it prevents tracking and surveillance, giving users peace of mind. Additionally, TrueVPN allows access to restricted content and websites by bypassing geographical restrictions, enabling users to enjoy their favorite content from anywhere in the world. Whether it's for personal use or business needs, TrueVPN offers a reliable solution for internet security, privacy, and unrestricted online access."
+                />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FeedBackActivity">
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        app:cardBackgroundColor="@color/lightBlue"
+        style="@style/CustomCardViewStyle">
+        <View
+            android:id="@+id/goToSetting"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:rotation="270"
+            android:background="@drawable/uplogoblue"
+            android:layout_margin="5dp"
+            />
+
+    </com.google.android.material.card.MaterialCardView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FeedBack for TrueVPN"
+        android:textColor="@color/lightBlue"
+        android:textSize="23sp"
+        android:fontFamily="@font/segoeuibold"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_margin="10dp"
+            android:padding="20dp"
+            >
+            <ImageView
+                android:id="@+id/gifImageView"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/segoeuibold"
+                android:layout_marginBottom="20dp"
+                android:text="Thank you for your feedback on TrueVPN. We appreciate your time and insights. Here's a response addressing your feedback:"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:text="• We're glad to hear that you are satisfied with TrueVPN. Your satisfaction is important to us, and we will continue to work hard to meet your expectations."
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:text="• We're delighted to know that you have positive feedback about TrueVPN. We strive to provide the best features and services to enhance your VPN experience."
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:text="• Thank you for sharing your suggestions and feature requests. We value your input and will carefully consider them for future updates. Our goal is to continuously improve TrueVPN and add features that meet our users' needs."
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:text="• We understand the importance of performance and reliability in a VPN app. We are committed to providing a stable and fast connection to ensure a seamless browsing experience. If you have any specific concerns or issues regarding performance, please let us know, and we'll be happy to assist you."
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:text="• We appreciate your additional comments and suggestions. We take all feedback seriously and use it to make necessary improvements. If you have any further suggestions or need assistance with any aspect of TrueVPN, please don't hesitate to reach out to us."
+                    />
+
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/segoeuibold"
+                android:layout_marginBottom="20dp"
+                android:text="Once again, thank you for your valuable feedback. We're dedicated to delivering a top-notch VPN service, and your input helps us achieve that goal."
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>
