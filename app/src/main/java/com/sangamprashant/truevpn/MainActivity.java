@@ -82,6 +82,9 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         else if (item.getItemId() == R.id.menuAbout) {
             openAbout();
         }
+        else if (item.getItemId() == R.id.menuContactus) {
+            openContactUs();
+        }
 
         // Close the navigation drawer after a selection is made
         drawerLayout.closeDrawer(GravityCompat.START);
@@ -99,6 +102,10 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     }
     private void openAbout() {
         Intent intent = new Intent(MainActivity.this, AboutContentActivity.class);
+        startActivity(intent);
+    }
+    private void openContactUs() {
+        Intent intent = new Intent(MainActivity.this, ContectUsContentActivity.class);
         startActivity(intent);
     }
 }
