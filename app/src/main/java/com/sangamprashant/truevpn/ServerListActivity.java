@@ -29,15 +29,6 @@ public class ServerListActivity extends AppCompatActivity {
         ServerRecyclerView = findViewById(R.id.serverRecyclerView);
         GotoMainActivity = findViewById(R.id.gotoMainActivity2);
 
-        // Find the ImageView in your activity or fragment
-        ImageView gifImageView = findViewById(R.id.gifImageView);
-
-        // Load the GIF using Glide
-        Glide.with(this)
-                .asGif()
-                .load(R.drawable.server)
-                .into(gifImageView);
-
         GotoMainActivity.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

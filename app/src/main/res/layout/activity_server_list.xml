@@ -76,12 +76,7 @@
     android:layout_margin="20dp"
     android:textSize="20sp"
     android:fontFamily="@font/segoeuibold"/>
-    <ImageView
-        android:id="@+id/gifImageView"
-        android:layout_width="200dp"
-        android:layout_height="200dp"
-        android:layout_gravity="center"
-        />
+
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/serverRecyclerView"
         android:layout_width="match_parent"
